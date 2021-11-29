@@ -1,0 +1,386 @@
+header{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+header .background{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .up-icon{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #78b7ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    z-index: 9999;
+}
+header .up-icon a{
+    color: #fff;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url(../images/425-4251166_menu-bar-icon-white-clipart.png);
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+}
+header nav .navbar-brand{
+    color: #fff !important;
+    font-size: 40px;
+}
+header nav .nav-link{
+    color: #fff !important;
+    font-size: 18px;
+    margin: 0 10px;
+    position: relative;
+}
+header nav .nav-link .before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 110%;
+    left: 10px;
+    transition: 1s all;
+}
+header nav .nav-link:hover .before{
+    width: 90%;
+}
+header .bg-light{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+}
+header nav .hover-item{
+    position: relative;
+}
+header nav .deep-item{
+    position: absolute;
+    top: 25%;
+    left: 100%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1) ;
+    border-radius: 5px;
+opacity: 0;}
+header nav .hover-item:hover .deep-item{
+opacity: 1;
+}
+header nav .deep-item ul{
+    list-style-type: none;
+}
+header h1{
+    color: #fff;
+    font-size: 450%;
+    position: relative;
+}
+header h1::after{
+    content: "";
+    width: 350px;
+    height: 100px;
+    font-size: 40px;
+    position: absolute;
+    top: 130%;
+    left: 30%;
+    animation-name: typing;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    0%{content: "D|";}
+    1%{content: "De|";}
+    2%{content: "Des|";}
+    3%{content: "Desi|";}
+    4%{content: "Desin|";}
+    5%{content: "Desine|";}
+    6%{content: "Desiner|";}
+    8%{content: "Desiner";}
+    10%{content: "Desiner|";}
+    11%{content: "Desine|";}
+    12%{content: "Desin|";}
+    13%{content: "Desi|";}
+    14%{content: "Des|";}
+    15%{content: "De|";}
+    16%{content: "Dev|";}
+    17%{content: "Deve|";}
+    18%{content: "Devel|";}
+    19%{content: "Develo|";}
+    20%{content: "Develop|";}
+    21%{content: "Develope|";}
+    22%{content: "Developer|";}
+    24%{content: "Developer";}
+    26%{content: "Developer|";}
+    27%{content: "Develope|";}
+    28%{content: "Develop|";}
+    29%{content: "Develo|";}
+    30%{content: "Devel|";}
+    3%{content: "Deve|";}
+    31%{content: "Dev|";}
+    32%{content: "De|";}
+    33%{content: "D|";}
+    35%{content: "|";}
+    37%{content: "";}
+    38%{content: "|";}
+    39%{content: "F|";}
+    40%{content: "Fr|";}
+    41%{content: "Fre|";}
+    42%{content: "Free|";}
+    43%{content: "Freel|";}
+    44%{content: "Freela|";}
+    45%{content: "Freelan|";}
+    46%{content: "Freelanc|";}
+    47%{content: "Freelance|";}
+    48%{content: "Freelancer|";}
+    50%{content: "Freelancer";}
+    52%{content: "Freelancer|";}
+    53%{content: "Freelance|";}
+    54%{content: "Freelanc|";}
+    55%{content: "Freelan|";}
+    56%{content: "Freela|";}
+    57%{content: "Freel|";}
+    58%{content: "Free|";}
+    59%{content: "Fre|";}
+    60%{content: "Fr|";}
+    61%{content: "F|";}
+    63%{content: "|";}
+    65%{content: "";}
+    66%{content: "|";}
+    67%{content: "P|";}
+    68%{content: "Ph|";}
+    69%{content: "Pho|";}
+    70%{content: "Phot|";}
+    71%{content: "Photo|";}
+    72%{content: "Photog|";}
+    73%{content: "Photogr|";}
+    74%{content: "Photogra|";}
+    75%{content: "Photograp|";}
+    76%{content: "Photograph|";}
+    77%{content: "Photographe|";}
+    78%{content: "Photographer|";}
+    80%{content: "Photographe|";}
+    81%{content: "Photograph|";}
+    82%{content: "Photograp|";}
+    83%{content: "Photogra|";}
+    84%{content: "Photogr|";}
+    85%{content: "Photog|";}
+    86%{content: "Photo|";}
+    87%{content: "Phot|";}
+    88%{content: "Pho|";}
+    89%{content: "Ph|";}
+    90%{content: "P|";}
+    92%{content: "|";}
+    94%{content: "";}
+    96%{content: "|";}
+    98%{content: "";}
+    100%{content: "|";}
+}
+/* -------------------------------------- */
+.one{
+    background-color: #f5f5f5;
+}
+.one .container{
+    padding: 10px;
+}
+.one .container img{
+    border-radius: 10px;
+}
+.one .under-lin{
+    position: relative;
+}
+.one .under-lin::before{
+    content: "";
+    width: 7%;
+    height: 5px;
+    background-color: #0d6efd;
+    position: absolute;
+    top: 115%;
+    left: 46%;
+    margin-bottom: 30px;
+}
+.one h3{
+    margin-bottom: 30px;
+}
+.one .contain-coler{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.one .under-lin{
+    position: relative;
+}
+.one .under-lin::after{
+    width: 50px;
+    height: 10px;
+    background-color: #0d6efd;
+    position: absolute;
+    top: 120%;
+    left: 45%;
+}
+.one .p-right{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #4e4e4e;
+}
+.one .icon-info{
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.one .icon-info h3 {
+    margin-top: 20px;
+}
+.one .icon-info span{
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.one .icon-info span:hover{
+    background-color: #0d6efd;
+    border: 10px solid #78b7ff;
+}
+/* --------------------------------- */
+.tow{
+    background-image: url(../images/post-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.tow .background{
+    background-color: rgba(0, 120, 225, 0.6);
+}
+/* ---------------------- */
+.three {
+    background-color: #f5f5f5;
+}
+.three .img-info{
+    background-color: #fff;
+    overflow: hidden;
+}
+.three .img-info img{
+    transition: all 1s;
+}
+.three .img-info:hover img{
+    transform: scale(1.2);
+}
+/* ------------------------------------ */
+.four{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.four .carousel-inner img{
+    width: 15%;
+    margin-top: 50px;
+}
+.four .carousel-inner h4{
+    margin: 30px 0;
+}
+.four .background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 120, 225, 0.8);
+}
+/* -------------------------------------------- */
+.five{
+    background-color: #f5f5f5;
+}
+.five a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+}
+.five a:hover{
+    color: #0d6efd;
+}
+.five .footer-left img{
+    width: 20%;
+    border-radius: 50%;
+}
+.five h4{
+    position: relative;
+}
+.five h4 .div-position{
+    padding: 5px 0;
+    color: #fff;
+    font-size: 16px;
+    width: 122px;
+    height: 29px;
+    position: absolute;
+    bottom: 86%;
+    left: 32%;
+    background-color: #0d6efd;
+    border-radius: 10px;
+}
+/* -------------------------------------------- */
+.six{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.six .background{
+   background-color: rgba(0, 120, 225, 0.8);
+}
+.six .service-icon span{
+    border: 5px solid #0d6efd;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.six .service-icon span:hover{
+    background-color: #0d6efd;
+    border: 5px solid #78b7ff;
+}
+footer{
+    background-color: #0062d3;
+    color: #fff;
+}
+@media screen and (max-width:576px){
+    header h1{
+        font-size: 30px;
+    }
+    header h1::after{
+        font-size: 25px;
+    }
+
+}
+@media screen and (min-width:577px) and (max-width:796px){
+    header h1{
+        font-size: 40px;
+    }
+    header h1::after{
+        font-size: 30px;
+    }
+
+}
+@media screen and (min-width:797) and (max-width:999px){
+    header h1{
+        font-size: 50px;
+    }
+    header h1::after{
+        font-size: 40px;
+    }
+
+}
